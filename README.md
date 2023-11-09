@@ -1,1 +1,1 @@
-# go-lang-exercises
+# golang-tour
