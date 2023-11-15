@@ -9,7 +9,6 @@ func DuplicateEncode(word string) string {
 	word = strings.ToLower(word)
 	for i, char := range word {
 		for icompare, comparechar := range word {
-			//fmt.Println(i, icompare, char, comparechar)
 			if char == comparechar && i != icompare {
 				convertedWord = append(convertedWord, ")")
 				break
